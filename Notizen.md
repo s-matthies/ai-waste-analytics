@@ -13,7 +13,9 @@
 | **Abfallart** | Gelieferte Abfallart: BIO = Biomüll, HM = Hausmüll, SPM = Sperrmüll                                                              |
 
 # Datenübersicht Delay & Ferien
-- "0" -> Montag
+- "0" bis "6" -> Montag bis Samstag
+- Falls am Samstag abgeholt wurde, dann wird geschaut ob in der Woche ein Feiertag war es wird geschut welcher Feiertag und wie lange er her ist.
+- 
 
 
 # Notizen
