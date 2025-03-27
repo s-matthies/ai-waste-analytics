@@ -1,16 +1,16 @@
 # BSR AI Project for Waste Collection Optimization
 
 ## Project Description
-This project analyzes and optimizes the waste collection processes of Berlin's municipal waste management company (BSR) using AI methods. Based on BSR datasets from the past four years, predictions for the upcoming year were developed. To improve prediction accuracy, various publicly available datasets were incorporated into the analysis, including weather data, school holidays, public holidays, and election surveys. The detailed results and analyses are summarized in the project documentation.
+This project analyzes and optimizes the waste collection processes of Berlin's municipal waste management company (BSR) using AI methods. Based on BSR datasets from the past four years, predictions for the upcoming year were developed. To improve prediction accuracy, various publicly available datasets were incorporated into the analysis, including weather data, school holidays, public holidays, and election surveys. The detailed results and analyses are summarized in the [project documentation](Dokumentation.pdf).
 
 ## Project Structure
 - `Daten/`: Contains raw data and processed datasets
 - `notebooks_training/`: Jupyter notebooks for AI model training
 - `Notebooks_vorverarbeitung/`: Jupyter notebooks for data preprocessing
-- `Dokumentation.pdf`: Comprehensive project documentation
-- `Leitfragen_Bericht_PPT.pdf`: Presentation materials and guiding questions
-- `Notizen.md`: Additional project notes and data descriptions
-
+- [`Dokumentation.pdf`](Dokumentation.pdf): Comprehensive project documentation
+- [`Leitfragen_Bericht_PPT.pdf`](Leitfragen_Bericht_PPT.pdf): Presentation materials and guiding questions
+- [`Notizen.md`](Notizen.md): Additional project notes and data descriptions
+  
 ## Data Structure
 The project works with the following main datasets:
 
