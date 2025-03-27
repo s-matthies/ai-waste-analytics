@@ -1,47 +1,47 @@
-# BSR KI-Projekt für Müllabfuhr-Optimierung
+# BSR AI Project for Waste Collection Optimization
 
-## Projektbeschreibung
-Dieses Projekt analysiert und optimiert die Müllabfuhr-Prozesse der Berliner Stadtreinigung (BSR) mithilfe von KI-Methoden. Basierend auf BSR-Datensätzen der letzten vier Jahre wurden Vorhersagen für das kommende Jahr entwickelt. Um die Prognosegenauigkeit zu verbessern, wurden verschiedene öffentlich zugängliche Datensätze in die Analyse einbezogen, darunter Wetterdaten, Schulferien, Feiertage und Wahlumfragen. Die detaillierten Ergebnisse und Analysen sind in der Projektdokumentation zusammengefasst.
+## Project Description
+This project analyzes and optimizes the waste collection processes of Berlin's municipal waste management company (BSR) using AI methods. Based on BSR datasets from the past four years, predictions for the upcoming year were developed. To improve prediction accuracy, various publicly available datasets were incorporated into the analysis, including weather data, school holidays, public holidays, and election surveys. The detailed results and analyses are summarized in the project documentation.
 
-## Projektstruktur
-- `Daten/`: Enthält die Rohdaten und verarbeiteten Datensätze
-- `notebooks_training/`: Jupyter Notebooks für das Training der KI-Modelle
-- `Notebooks_vorverarbeitung/`: Jupyter Notebooks für die Datenvorverarbeitung
-- `Dokumentation.pdf`: Ausführliche Projektdokumentation
-- `Leitfragen_Bericht_PPT.pdf`: Präsentationsunterlagen und Leitfragen
-- `Notizen.md`: Zusätzliche Projektnotizen und Datenbeschreibungen
+## Project Structure
+- `Daten/`: Contains raw data and processed datasets
+- `notebooks_training/`: Jupyter notebooks for AI model training
+- `Notebooks_vorverarbeitung/`: Jupyter notebooks for data preprocessing
+- `Dokumentation.pdf`: Comprehensive project documentation
+- `Leitfragen_Bericht_PPT.pdf`: Presentation materials and guiding questions
+- `Notizen.md`: Additional project notes and data descriptions
 
-## Datenstruktur
-Das Projekt arbeitet mit folgenden Hauptdatensätzen:
+## Data Structure
+The project works with the following main datasets:
 
-### Basis-Daten
-- **Monat, KW, Jahr, Datum**: Zeitliche Erfassung der Anlieferungen
-- **Hof**: Zuordnung zu verschiedenen BSR-Höfen (VMF, VMG, VMN, VMM, VMWSF, VMWSM, VMWSN)
-- **Schicht**: Arbeitszeiterfassung
-- **Tour**: Tournummern mit rotierenden Routen (2-Wochen-Rhythmus)
-- **Tonnage**: Abfallmenge in Tonnen
-- **Abfallart**: Kategorisierung (BIO, HM, SPM)
+### Base Data
+- **Month, CW, Year, Date**: Temporal recording of deliveries
+- **Yard**: Assignment to different BSR yards (VMF, VMG, VMN, VMM, VMWSF, VMWSM, VMWSN)
+- **Shift**: Working time recording
+- **Tour**: Tour numbers with rotating routes (2-week cycle)
+- **Tonnage**: Waste amount in tons
+- **Waste Type**: Categorization (BIO, HM, SPM)
 
-### Zusätzliche Datensätze
-- Wetterdaten
-- Inflationsdaten
-- Ausfallstatistiken
-- Feiertagsdaten
-- Wahldaten
-- Tourismusdaten
+### Additional Datasets
+- Weather data
+- Inflation data
+- Collection failure statistics
+- Public holiday data
+- Election data
+- Tourism data
 
-## Installation und Nutzung
-1. Repository klonen:
+## Installation and Usage
+1. Clone repository:
 ```bash
 git clone https://gitlab.rz.htw-berlin.de/s0587519/bsr_ki.git
 cd bsr_ki
 ```
 
-2. Notebooks in der bevorzugten Jupyter-Umgebung öffnen
-3. Daten entsprechend der Dokumentation verarbeiten
+2. Open notebooks in your preferred Jupyter environment
+3. Process data according to documentation
 
-## Projektkontext
-Das Projekt wurde als viertägiges Studienprojekt in einer vierköpfigen Gruppe in Zusammenarbeit mit der Berliner Stadtreinigung (BSR) durchgeführt. Es zielt darauf ab, die Effizienz der Müllabfuhr durch datengetriebene Entscheidungen zu verbessern.
+## Project Context
+This project was conducted as a four-day student project by a team of four in collaboration with Berlin's municipal waste management company (BSR). It aims to improve waste collection efficiency through data-driven decisions.
 
-## Autoren und Beteiligte
-- Team aus 4 Studierenden der HTW Berlin
+## Authors and Contributors
+- Team of 4 HTW Berlin students
