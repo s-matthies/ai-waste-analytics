@@ -33,7 +33,7 @@ The project works with the following main datasets:
 ## Installation and Usage
 1. Clone repository:
 ```bash
-git clone https://gitlab.rz.htw-berlin.de/s0587519/bsr_ki.git
+git clone https://github.com/s-matthies/ai-waste-analytics.git
 cd bsr_ki
 ```
 
@@ -41,7 +41,7 @@ cd bsr_ki
 3. Process data according to documentation
 
 ## Project Context
-This project was conducted as a four-day student project by a team of four in collaboration with Berlin's municipal waste management company (BSR). It aims to improve waste collection efficiency through data-driven decisions.
+This project was conducted as a four-day student project by a team of four. It aims to improve waste collection efficiency through data-driven decisions.
 
 ## Authors and Contributors
 - Team of 4 HTW Berlin students
