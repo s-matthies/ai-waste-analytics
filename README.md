@@ -1,4 +1,5 @@
 # BSR AI Project for Waste Collection Optimization
+### AI-Supported Analysis of Municipal Cleaning Data for Route Planning Optimization
 
 ## Project Description
 This project analyzes and optimizes the waste collection processes of Berlin's municipal waste management company (BSR) using AI methods. Based on BSR datasets from the past four years, predictions for the upcoming year were developed. To improve prediction accuracy, various publicly available datasets were incorporated into the analysis, including weather data, school holidays, public holidays, and election surveys. The detailed results and analyses are summarized in the [project documentation](Dokumentation.pdf).
